@@ -14,3 +14,5 @@ console.log("Nome do aluno ->", nome)
 
 const novaNota = [...aluno.nota,10]
 console.log("Nova nota ->", novaNota)
+
+console.log("A média do aluno " + nome + " é " + aluno.calcularMedia())
